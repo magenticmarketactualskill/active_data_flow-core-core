@@ -7,7 +7,7 @@ The core gem for the ActiveDataFlow modular stream processing framework. Provide
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'active_data_flow'
+gem 'active_data_flow-core-core'
 ```
 
 And then execute:
@@ -19,7 +19,7 @@ $ bundle install
 Or install it yourself as:
 
 ```bash
-$ gem install active_data_flow
+$ gem install active_data_flow-core-core
 ```
 
 ## Overview
@@ -242,10 +242,10 @@ end
 
 To create a plugin gem:
 
-1. Depend on `active_data_flow` in your gemspec:
+1. Depend on `active_data_flow-core-core` in your gemspec:
 
 ```ruby
-spec.add_dependency 'active_data_flow', '~> 1.0'
+spec.add_dependency 'active_data_flow-core-core', '~> 0.0.1'
 ```
 
 2. Register your components when the gem is loaded:
@@ -276,7 +276,7 @@ After checking out the repo, run `bin/setup` to install dependencies. Then, run 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/activedataflow/active_data_flow.
+Bug reports and pull requests are welcome on GitHub at https://github.com/activedataflow/active_data_flow-core-core.
 
 ## License
 

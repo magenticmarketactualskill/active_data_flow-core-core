@@ -3,14 +3,14 @@
 require_relative "lib/active_data_flow/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "active_data_flow"
+  spec.name = "active_data_flow-core-core"
   spec.version = ActiveDataFlow::VERSION
   spec.authors = ["ActiveDataFlow Team"]
   spec.email = ["team@activedataflow.dev"]
 
-  spec.summary = "Modular stream processing framework for Ruby"
-  spec.description = "Core abstractions and interfaces for building pluggable data processing pipelines"
-  spec.homepage = "https://github.com/activedataflow/active_data_flow"
+  spec.summary = "Core abstractions for ActiveDataFlow stream processing framework"
+  spec.description = "Core abstractions and interfaces for building pluggable data processing pipelines in the ActiveDataFlow framework"
+  spec.homepage = "https://github.com/activedataflow/active_data_flow-core-core"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.7.0"
 
